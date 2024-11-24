@@ -19,7 +19,7 @@ export default function Technologies(){
                     {emptyArray.map((index) => (
                         <div key={index} className="flex technology-button m-2">
                             <img
-                                src={'src/assets/technologies/' + t('technologyIcon' + index)}
+                                src={'../src/assets/technologies/' + t('technologyIcon' + index)}
                                 alt={t('technologyIconName' + index)}
                                 className="w-auto h-9 rounded-lg"
                                 title={t('technologyIconName' + index)}

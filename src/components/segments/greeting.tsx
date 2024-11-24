@@ -18,7 +18,8 @@ export default function Greeting() {
     const openPdf = () => {
         lang === 'es' ? window.open(hvEsp, '_blank') : window.open(hvEng, '_blank');
     };
-
+    
+    console.log(background)
     return (
         <div className="flex items-center justify-center h-screen w-full"
             style={{
