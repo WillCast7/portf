@@ -24,30 +24,41 @@ const SkillModal: React.FC<ModalProps> = ({ isOpen, closeModal, modalIndex }) =>
 
     if (!isOpen) return null;
     return(
-        <div className="fixed inset-0 flex items-center justify-center z-50 backdrop-blur confirm-dialog bg-black bg-opacity-50">
-            <div className="relative px-4 min-h-screen md:flex md:items-center md:justify-center">
-                <div className="black-background rounded-lg md:max-w-3xl md:mx-auto p-4 fixed inset-x-0 bottom-0 z-50 mb-4 mx-4 md:relative shadow-lg" style={{ maxHeight: '100vh', overflowY: 'auto' }}>
-                    <div className="md:flex items-center">
-                        <div className="mt-4 md:mt-0 md:ml-6 text-left md:text-left">
-                            <h1 className="font-bold text-xl mb-3">
-                                {t('educationTitle' + modalIndex)}
-                            </h1>
-                            <h2 className="font-semibold text-l ml-3 mb-3">
-                                {t('educationEnterprise' + modalIndex)}
-                            </h2>
-                            <p className='font-semibold text-xs ml-3 mb-3'>
-                                {t('educationYear' + modalIndex)}
-                            </p>
-                            <p className="text-xs mt-1 space-y-3 text-justify px-3 mb-3">
-                                {t('educationDescription' + modalIndex)}
-                            </p>
-                        </div>
-                    </div>
-                    <div className="text-center md:text-right mt-4 md:flex md:justify-end">
-                        <button onClick={closeModal} className="block w-full md:inline-block md:w-auto px-4 py-3 md:py-2 bg-gray-600 rounded-lg font-semibold text-sm mt-4 md:mt-0 md:order-1">
-                            {t('closeButton')}
-                        </button>
-                    </div>
+        <div className="fixed inset-0 flex items-center justify-center z-50 backdrop-blur-sm bg-black/60 p-4 sm:p-6" onClick={closeModal}>
+            <div 
+                className="black-background rounded-2xl w-full max-w-2xl max-h-[85vh] overflow-y-auto p-6 sm:p-8 shadow-2xl border border-white/10 relative" 
+                onClick={(e) => e.stopPropagation()}
+            >
+                <div className="flex justify-between items-start mb-3">
+                    <h2 className="font-bold text-xl sm:text-2xl text-white pr-4">
+                        {t('educationTitle' + modalIndex)}
+                    </h2>
+                    <button 
+                        onClick={closeModal} 
+                        className="text-gray-400 hover:text-white text-xl font-bold p-1.5 leading-none rounded-lg hover:bg-white/10 transition-colors"
+                        aria-label="Close"
+                    >
+                        ✕
+                    </button>
+                </div>
+                
+                <h3 className="font-semibold text-base sm:text-lg green-text mb-2">
+                    {t('educationEnterprise' + modalIndex)}
+                </h3>
+                <p className="font-medium text-xs sm:text-sm text-gray-400 mb-4">
+                    {t('educationYear' + modalIndex)}
+                </p>
+                <p className="text-sm sm:text-base text-gray-300 leading-relaxed text-left sm:text-justify mb-6">
+                    {t('educationDescription' + modalIndex)}
+                </p>
+
+                <div className="flex justify-end">
+                    <button 
+                        onClick={closeModal} 
+                        className="w-full sm:w-auto px-6 py-2.5 bg-gray-700 hover:bg-[#2b999a] text-white rounded-xl font-semibold text-sm transition-all duration-200"
+                    >
+                        {t('closeButton')}
+                    </button>
                 </div>
             </div>
         </div>

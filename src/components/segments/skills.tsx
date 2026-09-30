@@ -15,27 +15,34 @@ export default function Skills(){
     }
     
     return(
-        <div className="w-full green-background h-screen flex items-center justify-center">
-            <div className="flex ml-10 p-7 w-5/6 flex-col md:flex-row">
-                <div className="">
-                    <h1 className="text-9xl background-green-text absolute font-semibold z-0">{t('skillsBg')}</h1>
-                    <h1 className='relative z-10 mt-9 pl-9 pt-5 font-bold'>{t('skillsTitle')}</h1>
-                    <div className="w-3/4 p-3 mt-16 space-y-2 text-justify">
-                        <span>{t('skillsDescription')}</span>
+        <section id="skills" className="w-full min-h-screen py-16 md:py-24 px-4 sm:px-8 green-background flex items-center justify-center overflow-hidden relative">
+            <div className="w-full max-w-6xl flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-12">
+                <div className="relative w-full lg:w-1/2 flex flex-col items-start">
+                    <div className="relative w-full">
+                        <span className="text-7xl sm:text-8xl md:text-9xl background-green-text absolute -top-8 -left-2 sm:left-0 font-extrabold select-none pointer-events-none opacity-30 z-0">
+                            {t('skillsBg')}
+                        </span>
+                        <h2 className="relative z-10 font-bold text-2xl sm:text-3xl md:text-4xl text-white pt-2 sm:pt-4">
+                            {t('skillsTitle')}
+                        </h2>
+                    </div>
+                    <div className="mt-6 text-sm sm:text-base text-white/95 leading-relaxed text-left sm:text-justify">
+                        <p>{t('skillsDescription')}</p>
                     </div>
                 </div>
-            </div>
-            <div className="flex flex-wrap w-2/6 px-7 justify-center items-center mr-10">
-                {skillLists.map((skillItem, index) => (
-                    <button 
-                        key={index}
-                        className=" h-full text-center my-3 hover:bg-white hover:text-black"
-                        onClick={() => getInformation(index)}>
-                        {skillItem}
-                    </button>
-                ))}
+
+                <div className="w-full lg:w-1/2 flex flex-col sm:flex-row sm:flex-wrap gap-4 justify-center items-stretch sm:items-center">
+                    {skillLists.map((skillItem, index) => (
+                        <button 
+                            key={index}
+                            className="w-full sm:w-[calc(50%-0.5rem)] text-center py-4 px-5 rounded-xl font-bold bg-[#1a1a1a] text-white hover:bg-white hover:text-black transition-all duration-300 shadow-lg text-sm sm:text-base active:scale-95"
+                            onClick={() => getInformation(index)}>
+                            {skillItem}
+                        </button>
+                    ))}
+                </div>
             </div>
             <Modal isOpen={isModalOpen} closeModal={() => setIsModalOpen(false)} modalIndex={modalIndex} />
-        </div>
+        </section>
     );
 }

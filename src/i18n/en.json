@@ -1,47 +1,37 @@
 {
     "presentationHi": "Hi,",
     "presentationIam": "I'm",
-    "presentationProfession": "Full stack developer specialized in the backend",
-
+    "presentationProfession": "Senior Full Stack - AI Engineer",
     "aboutMeBg": "A",
     "aboutMeTitle": "About Me",
     "aboutMeItem1": "Third Place in the Community Fest and Code 2021",
-    "aboutMeItem2": "Currently studying Computer Engineering and based in Cali, Colombia.",
-    "aboutMeResume1": "I am a developer with over 9 years of experience in SQL and more than 4 years in software development, passionate about continuous growth under the Kaizen philosophy. Throughout my career, I have led complete projects, focusing on creating efficient and scalable solutions in both corporate environments and freelance projects.",
-    "aboutMeResume2": "I have a strong foundation in agile methodologies, especially SCRUM, and experience with technologies such as PHP (Laravel), JavaScript (Angular, React, Vue, Node), SQL (PostgreSQL, MySQL, SQL Server), MongoDB, C# (.NET), Ruby (Ruby on Rails), and Java (SpringBoot). Additionally, I am proficient in modern architectures, design patterns, and key tools such as AWS, Docker, Kubernetes, and Gitflow. I hold a B2 level of English, which facilitates collaboration in international teams.",
-    "aboutMeResume3": "I am a passionate self-learner, always eager to learn and evolve. My ability to gather requirements and work under agile methodologies, especially SCRUM, has been crucial in the timely delivery of projects. My experience spans various technologies, including PHP (Laravel), JavaScript (Angular, React, Vue, Strapi, React Native, Node), SQL (PostgreSQL, MySQL, SQL Server), C# (.NET), Ruby (Ruby on Rails), Java SE, and SpringBoot.",
+    "aboutMeItem2": "I am a Software Engineer and AI Engineer based in Cali, Colombia, with over 11 years of experience in SQL databases and 6 years leading the full software development lifecycle. My expertise lies in designing, building, and evolving enterprise solutions, merging backend engineering, full-stack development, and software architecture to create robust, custom-tailored products.",
+    "aboutMeResume1": "As a technical leader, I define service ecosystems applying Specification-Driven Development (SDD) and the C4 model to ensure scalable architectures under ISO 25010 quality standards. My core stack is built on Java (Spring Boot, Spring WebFlux), TypeScript (Angular), and relational engines (PostgreSQL, SQL Server), backed by containerized environments with Docker, agile methodologies, and the Kaizen philosophy for continuous improvement.",
+    "aboutMeResume2": "In my role as an AI Engineer, I integrate artificial intelligence directly into business workflows. I design Retrieval-Augmented Generation (RAG) architectures using pgvector, Spring AI, and local LLMs, developing automation systems, bots, and AI-driven solutions that streamline complex processes and connect seamlessly with corporate services.",
+    "aboutMeResume3": "With a B2 English level focused on technical communication, my goal is to continue transforming business models on an international scale. I aim to design ecosystems where high-quality software development and artificial intelligence converge to generate innovation, operational efficiency, and measurable value for organizations.",
     "aboutMePrhase": "True wisdom is knowing that you never stop learning.",
-    
-    
     "educationBg": "E",
     "educationTitle": "Education",
-    "educationDescription": "My education in the tech field has been primarily self-taught, complemented by certified courses in specific languages, technical studies, and an ongoing degree in Computer Engineering. This profession requires constant upskilling, something I embrace enthusiastically. Curiosity and a commitment to continuous learning drive me to stay updated with the latest trends and tools.",
-    
+    "educationDescription": "My academic foundation in Computer Engineering is enhanced by a strong commitment to continuous learning and the Kaizen philosophy. In a rapidly evolving technological ecosystem, I dedicate a significant portion of my time to self-directed research, mastering new architectures, quality standards, and Artificial Intelligence paradigms. This technical curiosity allows me to keep my skills at the cutting edge and apply industry best practices to every solution I design.",
     "educationTitle0": "SYSTEM TECHNICIAN",
     "educationEnterprise0": "Sena",
     "educationDescription0": "This program was my first introduction to programming, where I learned about computer architecture and took my first steps in software development. It provided a foundational base that sparked my interest in diving deeper into the tech field.",
     "educationYear0": "2012 - 2013",
-    
     "educationTitle1": "MINTIC 2022",
     "educationEnterprise1": "Universidad Pontifice Bolivariana de Medellin",
     "educationDescription1": "I embraced this learning path to deepen my knowledge of new technologies and programming languages, facing diverse challenges that strengthened my skills and broadened my perspective in software development.",
     "educationYear1": "2021 - 2022",
-
     "educationTitle2": "COMPUTER ENGINEERING",
     "educationEnterprise2": "Universidad de Cataluña",
     "educationDescription2": "I am currently pursuing this degree, which has allowed me to validate previous knowledge and build an academic foundation that complements my practical experience.",
     "educationYear2": "2024 - 2026",
-
     "educationTitle3": "EDUCACION AUTODIDACTA",
     "educationEnterprise3": "Udemy, Sena, Coursera, etc",
     "educationDescription3": "My self-taught education has been a cornerstone of my growth as a developer. This journey has allowed me to explore and master a wide range of essential knowledge for modern software development. From programming languages like Java, C#, JavaScript, PHP, and Ruby, to design patterns, software architectures (microservices, hexagonal, SOA), and agile methodologies like SCRUM. Additionally, I have delved into key cloud technologies such as AWS and GCP, as well as modern tools like Docker and Kubernetes. Every new tool or technology I learn represents not only a challenge overcome but also an opportunity to evolve. This constant pursuit of knowledge, driven by my passion for continuous learning, reflects my commitment to professional excellence and my Kaizen philosophy: improving every day to deliver more innovative and effective solutions.",
     "educationYear3": "-",
-
-    
     "technologiesBg": "T",
     "technologiesTitle": "Technologies",
     "technologiesDescription": "Throughout my career, in the different projects and challenges, I have gained valuable experience that has strengthened my skills and knowledge. This journey has been a continuous learning process, facing various challenges that have driven me to explore and master a wide range of technologies and languages. It has shown me that, no matter the challenge, it can always be overcome. Below are some of the technologies I have worked with.",
-    
     "technologyIcon0": "java.png",
     "technologyIconName0": "Java",
     "technologyIcon1": "springboot.png",
@@ -98,13 +88,11 @@
     "technologyIconName26": "Jenkins",
     "technologyIcon27": "linux.png",
     "technologyIconName27": "Linux",
-    
     "skillsBg": "S",
     "skillsTitle": "Skills",
     "skillsDescription": "Skills are essential in both personal and professional development. Throughout my career, I have strengthened and acquired new skills through discipline, perseverance, and my focus on continuous learning. My practical experience and self-taught education have allowed me to adapt to different challenges and evolve constantly. I believe that a well-developed skill set is not only crucial for achieving goals and overcoming challenges but can also have a positive impact on society by providing innovative and effective solutions.",
-    
     "skillList0": "Technical Skills",
-   "skillDescription0": "Throughout my career, I have worked with various technologies and languages, mastering key tools to develop scalable and efficient solutions. I have designed robust software architectures, implemented design patterns, and applied SOLID principles to maintain clean and well-structured code. Additionally, I have experience in automating repetitive tasks and integrating systems and microservices, enabling me to create applications and solutions that meet the highest quality standards.",
+    "skillDescription0": "Throughout my career, I have worked with various technologies and languages, mastering key tools to develop scalable and efficient solutions. I have designed robust software architectures, implemented design patterns, and applied SOLID principles to maintain clean and well-structured code. Additionally, I have experience in automating repetitive tasks and integrating systems and microservices, enabling me to create applications and solutions that meet the highest quality standards.",
     "skillList1": "Agile Methodologies",
     "skillDescription1": "In agile projects, I have led teams using methodologies such as SCRUM and Kanban to achieve continuous value delivery. I specialize in managing multidisciplinary teams, ensuring effective collaboration, and mentoring junior developers, which has been key to the development and success of each project.",
     "skillList2": "Interpersonal and Communication Skills",
@@ -113,122 +101,106 @@
     "skillDescription3": "My focus on management and leadership has allowed me to guide teams toward achieving common goals, ensuring projects are completed on time and within budget. Time management, prioritization, and strategic decision-making have been crucial in my career to achieve challenging goals and maintain high-quality work standards.",
     "skillList4": "Professional Development Skills",
     "skillDescription4": "Continuous learning and personal growth are fundamental to my career. I have always strived to stay up to date with new technologies and approaches, enabling me to adapt quickly to changes in the industry. My ability to learn independently has been crucial to improving and continuing to grow as a professional.",
-
-
     "experienceBg": "E",
     "experienceTitle": "Experience",
     "experienceResume": "Experience is a set of skills gained through the combination of time and practice.",
-   
-    "experienceYear0": "2015 - 2020",
-    "experienceTitle0":"Database Administrator",
-    "experienceSubTitle0": "MR Bussiness Group",
-    "experienceDescription0":"Administration of Windows servers and their respective MySQL databases, including backups, documentation, and logging in accordance with internal documentation processes. Data reporting based on queries with corresponding data analysis. Support for internal systems via SSH and electronic cards, including preventive and corrective maintenance. Preventive and corrective maintenance of computer equipment. Documentation management involving the registration, validation, and presentation of data during audits. User administration in installed programs and company applications. Domain user management. Network structure administration and support. Updates to internal software written in Java. Development of an application for telemarketing management and automation.",
-    "experienceTechnologies0": "MYSQL, Windows Server, Ubuntu server, php, javascript, Java.",
-   
-    "experienceYear1": "2021-2022",
-    "experienceTitle1":"Staff developer",
-    "experienceSubTitle1": "Siesa",
-    "experienceDescription1":"Develop and troubleshoot issues related to software used in various clinics along the Colombian coast, working with an internal library developed in PHP and migrating it to C#. First experience with SQL Server and its different stored functions, developing and optimizing existing ones, while consistently managing a client-support internal requirements platform.",
-    "experienceTechnologies1": "Php with a intern Framework, SQL SERVER, GIT(Sourcetree), Bitbucket, IIS, FASTREPORT, C#(.NET)",
-   
-    "experienceYear2": "2022",
-    "experienceTitle2":"Full stack developer",
-    "experienceSubTitle2": "Spartan Hill",
-    "experienceDescription2":"Developed various requirements for a cryptocurrency platform called PlutoWallet, integrating Binance and AWS services for account management, transactions, and cryptocurrency-related features, including market value and fluctuations. Utilized the SCRUM methodology to manage and meet development timelines and maintain organization. Received training and certification in SCRUM methodology during my time at the company. Provided support as requested by directors, following SCRUM practices. Additionally, created a promotional website for the Blockchain Festival in El Salvador, including ticketing, a payment gateway, and the option to pay with cryptocurrencies.",
-    "experienceTechnologies2": "Javascript( Strapi, React, NodeJS, React Native), Mongo, Bitbucket, AWS Lambda",
-   
-    "experienceYear3": "2022 - 2024",
-    "experienceTitle3":"Full stack developer",
-    "experienceSubTitle3": "Punto Red",
-    "experienceDescription3":"Integration of external banking services with internal products using ISO 8583 and REST APIs. API migrations between products and internal API migration to various microservices. Process automation using Python, Pandas, and other tools to streamline internal operations. Development and refactoring of code for services integrated with AWS, implementing SOLID principles to improve execution times and maintain clean code. Addressed various requirements through user stories or projects, working on both backend and frontend development. Led the frontend development of an internal product designed for self-management of client registrations with internal products, adhering to UX/UI designs to ensure the application matched the desired design and requirements.",
-    "experienceTechnologies3": "Springboot, Bitbucket, Ruby on rails, Python, Vue 2 and 3, postgresql, redis, Jenkins, sonarqube, Amazon text extract.",
-   
-   
+    "experienceYear5": "2015 - 2020",
+    "experienceTitle5": "Database Administrator",
+    "experienceSubTitle5": "MR Bussiness Group",
+    "experienceDescription5": "Administration of Windows servers and their respective MySQL databases, including backups, documentation, and logging in accordance with internal documentation processes. Data reporting based on queries with corresponding data analysis. Support for internal systems via SSH and electronic cards, including preventive and corrective maintenance. Preventive and corrective maintenance of computer equipment. Documentation management involving the registration, validation, and presentation of data during audits. User administration in installed programs and company applications. Domain user management. Network structure administration and support. Updates to internal software written in Java. Development of an application for telemarketing management and automation.",
+    "experienceTechnologies5": "MYSQL, Windows Server, Ubuntu server, php, javascript, Java.",
+    "experienceYear4": "2021-2022",
+    "experienceTitle4": "Staff developer",
+    "experienceSubTitle4": "Siesa",
+    "experienceDescription4": "Develop and troubleshoot issues related to software used in various clinics along the Colombian coast, working with an internal library developed in PHP and migrating it to C#. First experience with SQL Server and its different stored functions, developing and optimizing existing ones, while consistently managing a client-support internal requirements platform.",
+    "experienceTechnologies4": "Php with a intern Framework, SQL SERVER, GIT(Sourcetree), Bitbucket, IIS, FASTREPORT, C#(.NET)",
+    "experienceYear3": "2022",
+    "experienceTitle3": "Full stack developer",
+    "experienceSubTitle3": "Spartan Hill",
+    "experienceDescription3": "Developed various requirements for a cryptocurrency platform called PlutoWallet, integrating Binance and AWS services for account management, transactions, and cryptocurrency-related features, including market value and fluctuations. Utilized the SCRUM methodology to manage and meet development timelines and maintain organization. Received training and certification in SCRUM methodology during my time at the company. Provided support as requested by directors, following SCRUM practices. Additionally, created a promotional website for the Blockchain Festival in El Salvador, including ticketing, a payment gateway, and the option to pay with cryptocurrencies.",
+    "experienceTechnologies3": "Javascript( Strapi, React, NodeJS, React Native), Mongo, Bitbucket, AWS Lambda",
+    "experienceYear2": "2022 - 2024",
+    "experienceTitle2": "Full stack developer",
+    "experienceSubTitle2": "Punto Red",
+    "experienceDescription2": "Integration of external banking services with internal products using ISO 8583 and REST APIs. API migrations between products and internal API migration to various microservices. Process automation using Python, Pandas, and other tools to streamline internal operations. Development and refactoring of code for services integrated with AWS, implementing SOLID principles to improve execution times and maintain clean code. Addressed various requirements through user stories or projects, working on both backend and frontend development. Led the frontend development of an internal product designed for self-management of client registrations with internal products, adhering to UX/UI designs to ensure the application matched the desired design and requirements.",
+    "experienceTechnologies2": "Springboot, Bitbucket, Ruby on rails, Python, Vue 2 and 3, postgresql, redis, Jenkins, sonarqube, Amazon text extract.",
+    "experienceYear1": "2025",
+    "experienceTitle1": "Engineer Developer",
+    "experienceSubTitle1": "GVS",
+    "experienceDescription1": "I have worked on **integrating external services** such as WhatsApp API, SAP, and Yeastar with internal products, as well as **developing bots and implementing AI solutions**. I have also managed **internal tool migration processes** and developed applications following **SOLID principles and software development best practices**, focusing on well-documented, maintainable, and scalable code.",
+    "experienceTechnologies1": "Springboot, Yeastar, Angular, Python, Whatsapp API, SAP, AWS, Docker, SQL Server, Linux Server.",
+    "experienceYear0": "2025 - Actually",
+    "experienceTitle0": "Senior Developer / Software Architect",
+    "experienceSubTitle0": "Personalsoft (BTG PACTUAL)",
+    "experienceDescription0": "I have contributed to the design and documentation of banking service architectures using the C4 model (C1, C2, and C3) and comprehensive flow diagrams. I have designed and structured Steerings and Specs using Kiro under a Spec-Driven Development (SDD) approach, while developing and integrating mission-critical backend services through AI-Driven Development practices. Additionally, I have evaluated integrations with external services and financial products, proposing performance optimizations and technical refactoring strategies.",
+    "experienceTechnologies0": "Springboot, Python, Angular, postgresql, Jenkins, SonarQube, AWS, Kiro, C4 Model, Azure, WebFlux.",
     "portfolioTitle": "Portfolio",
     "portfolioBg": "P",
     "portfolioDescription": "Projects Worked on Independently",
-    
     "portfolioEnterprise0": "AUREALAB",
     "portfolioName0": "ANT",
     "portfolioYears0": "2022",
     "portfolioDescription0": "Management and Administration of Advisors",
-
     "portfolioEnterprise1": "IMPROVEMENT AFO",
     "portfolioName1": "SINHANTB",
     "portfolioYears1": "2020",
     "portfolioDescription1": "Management and Administration of Patients and Diseases",
-
     "portfolioEnterprise2": "IMPROVEMENT AFO",
     "portfolioName2": "INVENTARIO",
     "portfolioYears2": "2022",
     "portfolioDescription2": "Inventory Management and Administration",
-
     "portfolioEnterprise3": "IMPROVEMENT AFO",
     "portfolioName3": "LINEA 106",
     "portfolioYears3": "2024",
     "portfolioDescription3": "Management and Administration of Patients on Line 106",
-    
     "portfolioEnterprise4": "AUREALAB",
     "portfolioName4": "ANT",
     "portfolioYears4": "2024",
     "portfolioDescription4": "Management and Administration of Advisors",
-    
     "portfolioEnterprise5": "FORMULA 1",
     "portfolioName5": "GES",
     "portfolioYears5": "2022",
     "portfolioDescription5": "Management and Administration of Instructors",
-
     "projectDescription0": "Web application that manages and administers advisors, consultations, users, and reports to facilitate internal processes in the administrative workflow.",
     "projectImg01": "../assets/proyects/ant1.webp",
     "projectImg02": "../assets/proyects/ant2.webp",
     "projectImg03": "../assets/proyects/ant3.webp",
     "projectTechnologies0": "Laravel 7, Angular 9, PostgreSQL, GIT",
-    
     "projectDescription1": "Application used for the administration, management, and monitoring of patients, users, and household members, along with their respective diagnoses and treatments for diseases such as Leprosy, Sensitive Tuberculosis, and Drug-Resistant Tuberculosis. The system generates various reports and features different graphs, including a heatmap that adjusts according to the number of patients per municipality.",
     "projectImg11": "../assets/proyects/Sinhantb1.webp",
     "projectImg12": "../assets/proyects/Sinhantb2.webp",
     "projectImg13": "../assets/proyects/Sinhantb3.webp",
     "projectTechnologies1": "Laravel 7, Angular 11, POSTGRESQL, GIT, Linux",
-    
     "projectDescription2": "Application for inventory management, quotations, sales, users, and reports for a regional distributor supplying pharmacies across the Valle del Cauca department, tailored to meet their specific requirements.",
     "projectImg21": "../assets/proyects/inventario1.webp",
     "projectImg22": "../assets/proyects/inventario2.webp",
     "projectImg23": "../assets/proyects/inventario3.webp",
     "projectTechnologies2": "Laravel 7, GIT, Linux, MYSQL, GIT, Docker.",
-    
     "projectDescription3": "Application for managing reports, patients, and call registration for the suicide prevention hotline.",
     "projectImg31": "../assets/proyects/linea1061.webp",
     "projectImg32": "../assets/proyects/linea1062.webp",
     "projectImg33": "../assets/proyects/linea1063.webp",
     "projectTechnologies3": "React, node, GIT, Linux, PostgreSQL",
-    
     "projectDescription4": "The program is rewritten to include modules such as reception and a cash module to streamline and organize processes like telemarketing. Reports are added to expedite the accounting process, and shifts are implemented to organize the flow of customers during their stay. A 'Rate Us' module is introduced to gather customer feedback on their experience. The reception module, developed in React Native, is designed for customer check-in and validation, allowing customers to input their own data to ensure accurate information collection. Notifications and reminders are created to track the status of the technical and mechanical review. Additionally, reports are sent via email to company management, based on daily cash information.",
     "projectImg41": "../assets/proyects/nant1.webp",
     "projectImg42": "../assets/proyects/nant2.webp",
     "projectImg43": "../assets/proyects/nant3.webp",
     "projectTechnologies4": "Laravel 11, angular 18, PostgreSQL, Git, React native, Java, Kafka.",
-    
     "projectDescription5": "Project for managing instructors and students, tracking their entry and exit, with photographic evidence implemented in Java. It includes a corresponding web administration module for managing instructors, surveys, vehicles, maintenance, and driving school equipment.",
     "projectImg51": "../assets/proyects/ges1.webp",
     "projectImg52": "../assets/proyects/ges2.webp",
     "projectImg53": "../assets/proyects/ges3.webp",
     "projectTechnologies5": "Laravel, angular PostgreSQL, Git, Java",
-    
-
     "interestsTitle": "Interests",
     "interestsBg": "I",
     "interestsDescription": "Nuestros gustos, carácter y filosofía en la que basamos nuestros actos definen quienes somos.",
-    
     "interestsItem1": "Aprender",
     "interestsItem2": "Deportes",
     "interestsItem3": "Desarrollar",
     "interestsItem4": "Seguridad informática",
     "contactMeTitle": "ContactMe",
-    
-    
     "contactMeBg": "C",
     "phoneNumber": "PhoneNumber",
-    
     "email": "Email",
     "sena": "Sena",
     "upbm": "Universidad Pontifice Bolivariana de Medellin",
@@ -236,6 +208,5 @@
     "technologies": "Used tecnhnologies: ",
     "closeButton": "Close",
     "switchLanguajeButton": "Español",
-    "curriculumVitaeButton": "Curriculum Vitae"
-
+    "curriculumVitaeButton": "Resumen"
 }

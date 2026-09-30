@@ -10,7 +10,7 @@ import Proyects from './components/segments/proyects'
 function App() {
 
   return (
-    <div>
+    <div className="w-full min-h-screen overflow-x-hidden bg-[#181818] text-white">
       <Greeting/>
       <Introduction/>
       <Education/>
