@@ -37,8 +37,8 @@ export default function Greeting() {
                 {/* Executive Value Proposition */}
                 <p className="max-w-3xl text-sm sm:text-base lg:text-lg text-gray-300 leading-relaxed mb-10 text-center">
                     {currentLang === 'es'
-                        ? 'Diseño, construyo y escalo arquitecturas empresariales robustas, microservicios de alto rendimiento y soluciones impulsadas por Inteligencia Artificial (RAG & LLMs). Respaldo cada ecosistema con más de 11 años de dominio en bases de datos y 6 años liderando el ciclo completo de desarrollo de software.'
-                        : 'I design, build, and scale robust enterprise architectures, high-performance microservices, and AI-driven solutions (RAG & LLMs). I back every ecosystem with over 11 years of database expertise and 6+ years leading the full software development lifecycle.'}
+                        ? 'Diseño, construyo y escalo arquitecturas empresariales robustas, microservicios de alto rendimiento y soluciones impulsadas por Inteligencia Artificial (RAG & LLMs). Respaldo cada ecosistema con más de 6 años liderando el ciclo completo de desarrollo de software y 5 años adicionales en bases de datos.'
+                        : 'I design, build, and scale robust enterprise architectures, high-performance microservices, and AI-driven solutions (RAG & LLMs). I back every ecosystem with over 6 years leading the full software development lifecycle and 5 additional years in databases.'}
                 </p>
 
                 {/* Metric Stat Cards */}
