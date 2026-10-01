@@ -68,46 +68,76 @@ button:focus-visible {
 }
 
 .black-background {
-  background-color: #181818;
+  background-color: #0b0f17;
 }
 
 .green-background {
-  background-color: #2b999a;
+  background-color: #0e1622;
+  background-image: radial-gradient(circle at 50% 0%, rgba(20, 184, 166, 0.08), transparent 70%);
+}
+
+.section-dark-alt {
+  background-color: #0a0d14;
+}
+
+.glass-card {
+  background-color: rgba(17, 24, 39, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card-interactive {
+  background-color: rgba(17, 24, 39, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card-interactive:hover {
+  border-color: rgba(45, 212, 191, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -10px rgba(13, 148, 136, 0.25);
 }
 
 .greeting-container{
-  background-color: rgba(0,0,0, .5)
+  background-color: rgba(11, 15, 23, 0.85);
 }
 
 .background-text {
-  color: #272727;
+  color: #1e293b;
 }
 
 .background-green-text {
-  color: #32aeaf;
+  color: #134e4a;
 }
 
 .black-text {
-  color: #181818;
+  color: #0b0f17;
 }
 
 .green-text {
-  color: #2b999a;
+  color: #2dd4bf;
 }
 
 .technology-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #181818;
-  transition: border-color 0.25s;
+  background-color: rgba(17, 24, 39, 0.8);
+  transition: all 0.25s ease;
 }
 
 .technology-button:hover{
-  background-color: #2b999a;
+  background-color: #14b8a6;
+  border-color: #2dd4bf;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px -6px rgba(20, 184, 166, 0.4);
 }
 
 .visibility{
