@@ -10,7 +10,6 @@ import {
     HiOutlineCode,
     HiOutlineCalendar,
     HiOutlineBriefcase,
-    HiOutlineLockClosed,
     HiOutlineChevronLeft,
     HiOutlineChevronRight
 } from "react-icons/hi";
@@ -105,7 +104,6 @@ const ProjectModal: React.FC<ModalProps> = ({ isOpen, closeModal, modalIndex }) 
     const projectName = t('portfolioName' + modalIndex) || '';
     const enterprise = t('portfolioEnterprise' + modalIndex) || '';
     const year = t('portfolioYears' + modalIndex) || '';
-    const summary = t('portfolioDescription' + modalIndex) || '';
     const detailedDescription = t('projectDescription' + modalIndex) || '';
     const rawTechs = t('projectTechnologies' + modalIndex) || '';
     const techList = parseTechList(rawTechs);

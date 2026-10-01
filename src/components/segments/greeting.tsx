@@ -116,7 +116,7 @@ export default function Greeting() {
                         <AiFillGithub />
                     </a>
                     <a
-                        href="https://wa.me/573182452522"
+                        href="https://wa.me/573023424366"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-3 rounded-xl bg-white/5 border border-white/10 hover:border-teal-400 hover:text-teal-300 hover:scale-110 transition-all text-xl no-underline"

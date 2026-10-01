@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { 
-    AiOutlineWhatsApp, 
-    AiFillGithub, 
-    AiOutlineLinkedin, 
-    AiOutlineMail, 
-    AiOutlineCheck, 
+import {
+    AiOutlineWhatsApp,
+    AiFillGithub,
+    AiOutlineLinkedin,
+    AiOutlineMail,
+    AiOutlineCheck,
     AiOutlineCopy,
-    AiOutlineArrowUp 
+    AiOutlineArrowUp
 } from "react-icons/ai";
 import { HiOutlineSparkles, HiOutlineLocationMarker } from "react-icons/hi";
 
@@ -41,9 +41,9 @@ export default function ContactMe() {
                     </div>
 
                     <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight mb-4 max-w-2xl mx-auto">
-                        {currentLang === 'es' 
-                            ? '¿Listo para potenciar tu equipo con ingeniería de alto nivel?' 
-                            : 'Ready to elevate your engineering team with proven expertise?'}
+                        {currentLang === 'es'
+                            ? 'Abierto a nuevos desafíos.'
+                            : 'Open to new challenges.'}
                     </h2>
 
                     <p className="text-sm sm:text-base text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
@@ -60,11 +60,10 @@ export default function ContactMe() {
                         </div>
                         <button
                             onClick={copyEmail}
-                            className={`w-full sm:w-auto px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${
-                                copied
-                                    ? 'bg-teal-500 text-white'
-                                    : 'bg-white/10 hover:bg-white/20 text-white'
-                            }`}
+                            className={`w-full sm:w-auto px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center justify-center gap-1.5 cursor-pointer ${copied
+                                ? 'bg-teal-500 text-white'
+                                : 'bg-white/10 hover:bg-white/20 text-white'
+                                }`}
                         >
                             {copied ? (
                                 <>
@@ -83,7 +82,7 @@ export default function ContactMe() {
                     {/* Quick Channels Grid */}
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-2xl mx-auto">
                         <a
-                            href="https://wa.me/573182452522"
+                            href="https://wa.me/573023424366"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="glass-card-interactive p-4 rounded-2xl flex items-center justify-center gap-3 text-white no-underline group"
@@ -91,7 +90,7 @@ export default function ContactMe() {
                             <AiOutlineWhatsApp className="text-2xl text-emerald-400 group-hover:scale-110 transition-transform" />
                             <div className="text-left">
                                 <p className="text-xs text-gray-400">WhatsApp</p>
-                                <p className="text-sm font-bold text-white group-hover:text-emerald-300">+57 318 245 2522</p>
+                                <p className="text-sm font-bold text-white group-hover:text-emerald-300">+57 302 342 4366</p>
                             </div>
                         </a>
 

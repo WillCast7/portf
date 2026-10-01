@@ -1,19 +1,8 @@
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import Modal from "../modals/companyModal";
 
 export default function Enterprises() {
     const { t, i18n } = useTranslation();
     const currentLang = i18n.language.startsWith('es') ? 'es' : 'en';
-
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const [modalIndex, setModalIndex] = useState(0);
-
-    const openDetails = (index: number) => {
-        setModalIndex(index);
-        setIsModalOpen(true);
-    };
-
     const experiences = [0, 1, 2, 3, 4, 5];
 
     return (
