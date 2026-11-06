@@ -39,21 +39,21 @@ export default function Introduction() {
 
                             <h3 className="text-xl font-bold text-white mb-1">William Castaño</h3>
                             <p className="text-xs font-semibold text-teal-400 font-mono mb-4">
-                                Senior Full Stack &amp; AI Engineer
+                                Software Architect &amp; AI Engineer
                             </p>
 
                             <div className="w-full pt-4 border-t border-white/10 space-y-2 text-xs text-gray-300 text-left">
                                 <div className="flex items-center gap-2">
                                     <span className="text-teal-400">📍</span>
-                                    <span>Cali, Colombia (Remoto Global)</span>
+                                    <span>{currentLang === 'es' ? 'Cali, Colombia (Remoto global)' : 'Cali, Colombia (Remote, global)'}</span>
                                 </div>
                                 <div className="flex items-center gap-2">
                                     <span className="text-teal-400">🌐</span>
-                                    <span>{currentLang === 'es' ? 'Nivel de Inglés: B2 Técnico' : 'English: B2 Technical'}</span>
+                                    <span>{currentLang === 'es' ? 'Inglés B2 técnico · Español nativo' : 'English B2 (technical) · Native Spanish'}</span>
                                 </div>
                                 <div className="flex items-center gap-2">
                                     <span className="text-teal-400">⚡</span>
-                                    <span>{currentLang === 'es' ? 'Metodología: Kaizen & SCRUM' : 'Methodology: Kaizen & Agile'}</span>
+                                    <span>{currentLang === 'es' ? 'Metodología: SDD · Scrum · Kaizen' : 'Methodology: SDD · Scrum · Kaizen'}</span>
                                 </div>
                             </div>
 
@@ -77,6 +77,9 @@ export default function Introduction() {
                             <p className="text-sm sm:text-base leading-relaxed text-gray-300">
                                 {t('aboutMeResume1')}
                             </p>
+                            <p className="text-sm sm:text-base leading-relaxed text-gray-300">
+                                {t('aboutMeResume2')}
+                            </p>
                         </div>
 
                         {/* 3 Value Pillars */}
@@ -91,23 +94,23 @@ export default function Introduction() {
                                 </h4>
                                 <p className="text-xs text-gray-400 leading-relaxed">
                                     {currentLang === 'es'
-                                        ? 'Microservicios con Spring Boot, WebFlux y Kafka, python, node. Diseño con modelo C4 y especificaciones SDD bajo ISO 25010.'
-                                        : 'Microservices with Spring Boot, WebFlux, and Kafka, as well as Python and Node.js. Architecture design using the C4 Model and SDD specifications aligned with ISO/IEC 25010.'}
+                                        ? 'Modelo C4, microservicios y DDD sobre Java/Spring Boot y WebFlux. Especificaciones SDD con calidad bajo ISO 25010.'
+                                        : 'C4 Model, microservices and DDD on Java/Spring Boot and WebFlux. SDD specifications with quality aligned to ISO/IEC 25010.'}
                                 </p>
                             </div>
 
-                            {/* Pillar 2: High Performance Data */}
+                            {/* Pillar 2: Fintech & Integrations */}
                             <div className="glass-card-interactive p-5 rounded-2xl flex flex-col">
                                 <div className="w-10 h-10 rounded-xl bg-teal-500/10 border border-teal-500/20 flex items-center justify-center text-teal-400 mb-3">
                                     <HiOutlineDatabase className="text-xl" />
                                 </div>
                                 <h4 className="font-bold text-white text-sm sm:text-base mb-2">
-                                    {currentLang === 'es' ? 'Bases de Datos & SQL' : 'Databases & SQL'}
+                                    {currentLang === 'es' ? 'Fintech & Integraciones' : 'Fintech & Integrations'}
                                 </h4>
                                 <p className="text-xs text-gray-400 leading-relaxed">
                                     {currentLang === 'es'
-                                        ? '+5 años adicionales trabajando con bases de datos relacionales (PostgreSQL, SQL Server, MySQL) y modelado NoSQL.'
-                                        : '5+ years additional experience working with relational databases (PostgreSQL, SQL Server, MySQL) and NoSQL modeling.'}
+                                        ? 'Banca con ISO 8583 y APIs REST, SAP, WhatsApp Business API y Binance, sobre AWS/Azure y PostgreSQL, SQL Server y MySQL.'
+                                        : 'Banking with ISO 8583 and REST APIs, SAP, WhatsApp Business API and Binance, on AWS/Azure with PostgreSQL, SQL Server and MySQL.'}
                                 </p>
                             </div>
 
@@ -121,8 +124,8 @@ export default function Introduction() {
                                 </h4>
                                 <p className="text-xs text-gray-400 leading-relaxed">
                                     {currentLang === 'es'
-                                        ? 'Arquitecturas RAG con pgvector, Spring AI y LLMs locales para automatización de flujos de negocio.'
-                                        : 'RAG architectures with pgvector, Spring AI and local LLMs for business workflow automation.'}
+                                        ? 'RAG con pgvector, Spring AI y LLMs locales (Ollama, LM Studio); bots conversacionales y desarrollo asistido por IA.'
+                                        : 'RAG with pgvector, Spring AI and local LLMs (Ollama, LM Studio); conversational bots and AI-assisted development.'}
                                 </p>
                             </div>
                         </div>

@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 export default function Enterprises() {
     const { t, i18n } = useTranslation();
     const currentLang = i18n.language.startsWith('es') ? 'es' : 'en';
-    const experiences = [0, 1, 2, 3, 4, 5];
+    // Display order (most recent first). Index 6 = AureaLab (Jul 2021 – present).
+    const experiences = [0, 6, 1, 2, 3, 4, 5];
 
     return (
         <section id="experience" className="w-full min-h-screen py-20 md:py-28 px-4 sm:px-6 lg:px-8 bg-[#0E1622] relative overflow-hidden">
@@ -45,7 +46,7 @@ export default function Enterprises() {
 
                                 {/* Experience Card */}
                                 <div
-                                    className="glass-card-interactive p-6 sm:p-7 rounded-2xl border border-white/10 cursor-pointer"
+                                    className="glass-card-interactive p-6 sm:p-7 rounded-2xl border border-white/10"
                                 >
                                     <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-3">
                                         <div>
@@ -65,9 +66,14 @@ export default function Enterprises() {
                                     </div>
 
                                     {/* Description */}
-                                    <p className="text-sm sm:text-base text-gray-300 leading-relaxed mb-4 text-justify">
-                                        {description}
-                                    </p>
+                                    <ul className="space-y-2 mb-4">
+                                        {description.split('\n').filter(Boolean).map((line, i) => (
+                                            <li key={i} className="flex gap-2.5 text-sm sm:text-base text-gray-300 leading-relaxed">
+                                                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-teal-400 flex-shrink-0" />
+                                                <span>{line}</span>
+                                            </li>
+                                        ))}
+                                    </ul>
 
                                     {/* Tech Tags */}
                                     <div className="flex flex-wrap items-center justify-between gap-3 pt-3 border-t border-white/5">

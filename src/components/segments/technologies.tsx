@@ -65,7 +65,7 @@ export default function Technologies() {
         : techItems.filter(item => item.category === activeFilter);
 
     const categories = [
-        { key: 'all', label: currentLang === 'es' ? 'Todas (28)' : 'All (28)', icon: null },
+        { key: 'all', label: `${currentLang === 'es' ? 'Todas' : 'All'} (${techItems.length})`, icon: null },
         { key: 'backend', label: currentLang === 'es' ? 'Backend & Core' : 'Backend & Core', icon: <HiOutlineServer className="text-base" /> },
         { key: 'data', label: currentLang === 'es' ? 'Bases de Datos & SQL' : 'Databases & SQL', icon: <HiOutlineDatabase className="text-base" /> },
         { key: 'cloud', label: currentLang === 'es' ? 'Cloud & DevOps' : 'Cloud & DevOps', icon: <HiOutlineCloud className="text-base" /> },

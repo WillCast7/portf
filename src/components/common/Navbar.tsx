@@ -56,22 +56,22 @@ export default function Navbar() {
                         WC
                     </div>
                     <div className="flex flex-col">
-                        <span className="font-bold text-base sm:text-lg tracking-tight leading-none text-white group-hover:text-[#2DD4BF] transition-colors">
+                        <span className="font-bold text-base sm:text-lg tracking-tight leading-none whitespace-nowrap text-white group-hover:text-[#2DD4BF] transition-colors">
                             William Castaño
                         </span>
                         <span className="text-[11px] text-teal-400 font-mono tracking-wider">
-                            Full Stack &amp; AI
+                            Architect &amp; AI
                         </span>
                     </div>
                 </a>
 
                 {/* Desktop Navigation Links */}
-                <nav className="hidden lg:flex items-center gap-6">
+                <nav className="hidden lg:flex items-center gap-4 xl:gap-6 mx-4">
                     {navLinks.map((link) => (
                         <a
                             key={link.href}
                             href={link.href}
-                            className="text-sm font-medium text-gray-300 hover:text-[#2DD4BF] transition-colors no-underline"
+                            className="text-sm font-medium text-gray-300 hover:text-[#2DD4BF] transition-colors no-underline whitespace-nowrap"
                         >
                             {link.label}
                         </a>

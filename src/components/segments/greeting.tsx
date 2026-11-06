@@ -29,33 +29,34 @@ export default function Greeting() {
                 </h1>
 
                 {/* Subtitle / Role */}
-                <p className="text-lg sm:text-2xl lg:text-3xl font-semibold text-gray-200 mb-6 flex items-center justify-center gap-2">
+                <p className="text-lg sm:text-2xl lg:text-3xl font-semibold text-gray-200 mb-3 flex items-center justify-center gap-2">
                     <HiOutlineSparkles className="text-teal-400" />
                     <span>{t('presentationProfession')}</span>
+                </p>
+                <p className="text-xs sm:text-sm font-mono text-teal-300 tracking-wide mb-6">
+                    {t('presentationStack')}
                 </p>
 
                 {/* Executive Value Proposition */}
                 <p className="max-w-3xl text-sm sm:text-base lg:text-lg text-gray-300 leading-relaxed mb-10 text-center">
-                    {currentLang === 'es'
-                        ? 'Diseño, construyo y escalo arquitecturas empresariales robustas, microservicios de alto rendimiento y soluciones impulsadas por Inteligencia Artificial (RAG & LLMs). Respaldo cada ecosistema con más de 6 años liderando el ciclo completo de desarrollo de software y 5 años adicionales en bases de datos.'
-                        : 'I design, build, and scale robust enterprise architectures, high-performance microservices, and AI-driven solutions (RAG & LLMs). I back every ecosystem with over 6 years leading the full software development lifecycle and 5 additional years in databases.'}
+                    {t('presentationValue')}
                 </p>
 
                 {/* Metric Stat Cards */}
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 w-full max-w-3xl mb-10">
                     <div className="glass-card-interactive p-4 rounded-2xl flex flex-col items-center text-center">
                         <HiOutlineDatabase className="text-2xl text-teal-400 mb-1" />
-                        <span className="text-2xl sm:text-3xl font-extrabold text-white">+11</span>
+                        <span className="text-2xl sm:text-3xl font-extrabold text-white">10+</span>
                         <span className="text-xs text-gray-300 font-medium">
-                            {currentLang === 'es' ? 'Años en SQL & BD' : 'Years SQL & Data'}
+                            {currentLang === 'es' ? 'Años en Tecnología' : 'Years in Tech'}
                         </span>
                     </div>
 
                     <div className="glass-card-interactive p-4 rounded-2xl flex flex-col items-center text-center">
                         <HiOutlineCode className="text-2xl text-teal-400 mb-1" />
-                        <span className="text-2xl sm:text-3xl font-extrabold text-white">+6</span>
+                        <span className="text-2xl sm:text-3xl font-extrabold text-white">6+</span>
                         <span className="text-xs text-gray-300 font-medium">
-                            {currentLang === 'es' ? 'Años en Desarrollo' : 'Years Software Dev'}
+                            {currentLang === 'es' ? 'Años Construyendo Software' : 'Years Building Software'}
                         </span>
                     </div>
 

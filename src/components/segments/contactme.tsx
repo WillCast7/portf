@@ -48,8 +48,8 @@ export default function ContactMe() {
 
                     <p className="text-sm sm:text-base text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
                         {currentLang === 'es'
-                            ? 'Disponible para roles Senior Full Stack, Arquitectura de Software, proyectos distribuidos e integración de Inteligencia Artificial.'
-                            : 'Available for Senior Full Stack roles, Software Architecture, distributed systems, and Enterprise AI integration.'}
+                            ? 'Disponible para roles de Arquitectura de Software, Senior Full Stack (Java · Spring Boot) e Ingeniería de IA (RAG y LLMs locales).'
+                            : 'Available for Software Architecture, Senior Full Stack (Java · Spring Boot) and AI Engineering (RAG and local LLMs) roles.'}
                     </p>
 
                     {/* Email Copy Box */}
